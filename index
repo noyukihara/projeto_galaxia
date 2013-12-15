@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="coding.js"></script>
+  <script type="text/javascript" src="jquery-ui-1.10.3.custom.min.js"></script>
+ </head>
+<body>
+	<div id="opaque">
+    <h1>Projeto Gálaxia</h1>
+      <p></p>
+    <h3>Instruções</h3><hr>
+      <p>Toque na tela para aumentar</p>
+      <p>Clique e arraste para navegar</p>
+      <p>Toque no botão "Voltar" para voltar o zoom</p><br><br>
+
+    <h3>Legendas</h3><hr>
+      <div>As Estrelas (sol) são os eventos principais<br>
+      <img src=""/>
+      </div>
+      <div>Os Planetas são eventos de menor impacto, relacionados com o seu Sol<br>
+      <img src=""/>
+      </div>
+      <div>As Luas são eventos complementares, relacionados com seu Planeta<br>
+      <img src=""/>
+      </div>
+      <div>As linhas conectam os eventos numa relação de causa/efeito<br>
+      <img src=""/>
+      <p> Toque para continuar </p>
+      </div>
+  </div>
+  <img id="galaxy" src="projeto_galaxia.png" alt="Mapa de uma Galáxia contendo informações históricas"/ >
+  <div id="background"></div>
+  <div id="back" title="voltar" alt="voltar"><img id="bt_back" src="back.png" alt="Botão Voltar"></div>
+  <div id="info" title="informações" alt="informações"><img id="bt_back" src="info.png"></div>
+</body>
+</html>
